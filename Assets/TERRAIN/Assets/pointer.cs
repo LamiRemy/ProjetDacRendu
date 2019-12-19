@@ -61,7 +61,7 @@ public class pointer : MonoBehaviour
 
         if (Physics.Raycast(ray, out hit, Mathf.Infinity, mask))
         {
-            if (Input.GetMouseButton(0) || Input.GetMouseButtonDown(0))
+            if (OVRInput.Get(OVRInput.Button.One))
             {
                 tempFile = hit.transform.GetComponent<createTerrain>();
 

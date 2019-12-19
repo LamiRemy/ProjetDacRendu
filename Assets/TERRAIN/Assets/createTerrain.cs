@@ -75,6 +75,8 @@ public class createTerrain : MonoBehaviour
                 int index = (int)(sizeCurve * (pourcent / 100));
 
                 _vertices[i].y += force * lenghtCurve[index].value;
+                if (_vertices[i].y > 80) _vertices[i].y = 80;
+                if (_vertices[i].y < -19.9f) _vertices[i].y = -19.9f;
             }
         }
 

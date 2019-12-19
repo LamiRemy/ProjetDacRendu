@@ -338,7 +338,6 @@ public class OVRRaycaster : GraphicRaycaster, IPointerEnterHandler, IPointerExit
 
     void Update()
     {
-        print("Etat : " + DesactivatePointer);
         if (DesactivatePointer)
         {
             laser.SetActive(false);
