@@ -1,5 +1,5 @@
 # Projet DAC : Déformations de Terrain en VR
 
-#De :
-#CRESPE Rémy
-#DAUPHIN Mickaël
+### Projet fait par : 
+- [Rémy CRESPE](https://github.com/LamiRemy)
+- [Mickaël DAUPHIN](https://github.com/MickaelDauphin)
